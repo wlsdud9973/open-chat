@@ -1,0 +1,31 @@
+:root {
+  /* 전역 변수 선언 */
+  --primary-color: #6633ff;
+  --secondary-color: #e74c3c;
+
+  /* 폰트 관련 변수 */
+  --font-family: "Poppins";
+
+  --font-weight-bold: "700";
+  --font-weight-regular: "400";
+  --font-weight-light: "300";
+
+  --font-size-caption2: 11px;
+  --font-size-caption1: 12px;
+  --font-size-footnote: 13px;
+  --font-size-subheadline: 15px;
+  --font-size-callout: 16px;
+  --font-size-body: 17px;
+  --font-size-title3: 20px;
+  --font-size-title2: 22px;
+  --font-size-title1: 28px;
+  --font-size-large-title: 32px;
+  --font-size-xlarge-title: 48px;
+  --font-size-xxlarge-title: 64px;
+
+  --font-size-button-small: 12px;
+  --font-size-button-medium: 14px;
+  --font-size-button-large: 16px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");

@@ -1,0 +1,220 @@
+
+.form {
+    display: flex;
+    min-width: 500px;
+    min-height: 100vh;
+    
+    flex-direction: column;
+    background-color: white;
+  }
+  
+
+.profileUpdate {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-button {
+    background-color : "gray";
+    border : none;
+    border-radius : "10px";
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.profile-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo_main{
+    width: 70px;
+    height: 40px;
+}
+
+.chating-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    max-height: 50px;
+}
+
+.message-bar {
+    display: flex;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 20px;
+    background-color: aqua;
+}
+
+.message-button {
+    background-color : gray;
+    border : 1px solid gray;
+    border-radius : 5px;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.message-input {
+    width: 100%;
+    border : 1px solid gray;
+    border-radius : 5px;
+    padding: 10px;
+    resize: none;
+    height: auto;
+    overflow-y: hidden;
+}
+
+.chatRoom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: gray;
+}
+
+.chatRoom-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: #f9f9f9;
+}
+
+.chatRoom-name{
+    display: flex;
+    padding: 15px;
+}
+
+.chatRoom-link {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin: 20px 0px;
+    
+    gap: 5px;
+}
+
+.list {
+    width: 100%;
+    height: 90vh;
+    background-color: #f1f1f1;
+}
+
+.chatRoom-create-form {
+    position: absolute;
+    top: 110px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+}
+
+.create-input-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.font-1 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.chat-window {
+    width: 100%;
+    height: 75vh;
+    padding: 20px 0px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.message-line {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.chating-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.chating-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 0px 10px;
+}
+
+.chating-name {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.chat-text {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+    font-size: 14px;
+    font-weight: medium;
+}
+
+.timeStemp {
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+    font-weight: bold;
+    color: gray;
+    margin:0px 10px 5px 10px;
+}
+
+.createChatRoom-button {
+    display: flex;
+    
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.select-button {
+    display: flex;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
